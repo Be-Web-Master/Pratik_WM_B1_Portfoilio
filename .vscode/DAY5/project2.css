@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.drawer-top{
+position: absolute;
+top: -300px;
+left: 0;
+background-color: blue;
+height: 300px;
+width: 100vw;
+transition: all 0.6s ease;
+}
+
+#btop:hover~.drawer-top{
+    top: 0;
+}
+/*.drawer-right{
+    position: absolute;
+    right: -300;
+    top: 0;
+    background-color: yellow;
+    height: 300px;
+    width: 100vw;
+    transition: all 0,6s ease;
+}
+#bright:hover~.drawer-right{
+    top: 0;*/
+
+/*#button{
+    color: white;
+    font-size: 20px;
+    background-color:blue
+}*/
+
+/* .drawer-top{
+    height: 200px;
+    width: 100%;
+    top: -500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+} */
+/* 
+.drawer-right{
+    height: 50%;
+    width: 300px;
+    right: -300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       background-color: brown;
+       margin-left: 100%;
+       gap: 20px;
+}
+
+.drawer-bottom{
+    height: 300px;
+    width: 100%;
+    right: -300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       background-color: gold;
+       bottom: 300px;
+       gap: 20px;
+}
+
+.drawer-left{
+    height: 50%;
+    width: 300px;
+    right: -300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       background-color: grey;
+       margin-right: 100%;
+       gap: 20px;
+}
+#btop:hover ~.drawer-top{
+    top: 0;
+} */
