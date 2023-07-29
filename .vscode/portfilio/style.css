@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+ #nav1{
+        background-color: black;
+    }
+#nav1 h1{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+#nav1 h4{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#page1{
+    background-image: url("https://www.w3schools.com/w3images/man_smoke.jpg");
+    width: 100%;
+    height: 220%;
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+#im{
+    height: 13px;
+    width: 13px;
+    color: white;
+}
+#nav{
+
+    height: 50px;
+    width: 20px;
+    padding: 20px;
+    }
+
+#nav button{
+    height: 60px;
+    width: 60px;
+    background-color:transparent;
+    color: white;
+    gap: 10px;
+}
+#img1{
+    height: 50px;
+    width: 50px;
+}
+#page_about{
+    padding: 40px;
+    
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#page_about h1{
+    font-size: 30px;
+font-weight: 400;
+padding-left: 60px;
+}
+#page_about p{
+    padding: 60px;
+    opacity: 0.5;
+
+}
+#page_about h6{
+    font-size: 20px;
+    padding: 60px;
+    opacity: 0.5;
+    font-weight: 200;
+}
+#h61{
+    height: 20px;
+    width: 90%;
+   background-color:beige;
+   padding: 0 30px;
+   margin-left :60px;
+   
+}
+#h62{
+    height: 120px;
+    width: 90%;
+    background-color: beige;
+    margin-left: 60px;
+    margin-top: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#page_about button{
+    height: 50px;
+    width: 200px;
+    margin: 40px 60px;
+
+}
+#ptable{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+#pchild1{
+    height: 50%;
+    width: 50%;
+    background-color: black;
+    position: relative;
+}
+#pchild2{
+    height: 50%;
+    width: 50%;
+    background-color: black;
+    position: relative;
+}
+
